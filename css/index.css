@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: black; */
+    padding: 5px 0px;
+}
+.navbr{
+    display: flex;
+    align-items: center;
+}
+.navbr img{
+    width: 50px;
+}
+.hme{
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-size: 1.6rem;
+    color: white;
+    padding: 3px 9px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 0px 6px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hme:hover{
+    background-color: green;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-size: 1.6rem;
+    color: white;
+    padding: 3px 9px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 0px 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul li a:hover{
+    background-color: green;
+}
+.navbr h1{
+    color: white;
+    font-size: 2rem;
+    margin: 0px 9px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+.regstr-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #0a58ca;
+    padding: 6px 29px;
+    outline: none;
+    /* border: 1px solid white; */
+    border-radius: 6px;
+    font-size: 1.6rem;
+    height: 35px;
+    position: relative;
+    top: 480px;
+    letter-spacing: 3px;
+}
+.regstr-btn:hover{
+     border: 1px solid white;
+     background:none;
+}
+.main-container::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: url('../images/bg.jpg') no-repeat center center/cover;
+    /* background: url('https://source.unsplash.com/1600x900/?blood donate') no-repeat center center/cover; */
+    width: 100%;
+    height:100vh;
+    z-index: -1;
+    opacity: 0.89;
+}
+.main-container::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    width: 100%;
+    height:100vh;
+    z-index: -1;
+    opacity: 0.94;
+}
